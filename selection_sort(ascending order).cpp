@@ -16,7 +16,7 @@ void main() {
 	for (int i = 0; i < size; i++)
 		cin >> list[i];
 
-	cout << "Unsorted List: [";
+	cout << "Unsorted List: [ ";
 	printArray(list, size);
 	cout << "]" << endl;
 
@@ -36,7 +36,7 @@ void main() {
 		list[max] = temp;
 	}
 
-	cout << "Sorted List: [";
+	cout << "Sorted List: [ ";
 	printArray(list, size);
 	cout << "]" << endl;
 }
