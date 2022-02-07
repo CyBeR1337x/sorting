@@ -18,7 +18,7 @@ void main() {
 	cout << "Unsorted List: [ ";
 	displayArray(list, size);
 	cout << "]" << endl;
-	for (int i = 0; i < size; i++) {
+	for (int i = 1; i < size; i++) {
 		int key = list[i];
 		int j = i - 1;
 
